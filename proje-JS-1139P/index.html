@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+          <!--Takım A-->
+             <div class="card">
+                <div class="team">
+                    <h2 id="TeamA">Takım A</h2>
+                 </div>
+                 <div class="newName">
+                    <button onclick="NewTeamA()" >Yeni isim</button>
+                </div>
+                 <div class="team-photo imgA"></div>
+                 <div class="skor-edit">
+                     <button id="artanSayiButton">+</button>
+                     <button id="eksilSayiButton">-</button>
+                    <button onclick="showAlert()">Düzenle</button>
+                    <button onclick="resetScore()">Sıfırla</button>
+                </div>
+            </div> 
+            <!-- Skor-->
+            <div class="skor">
+                <p class="skorSize" id="artansayi">0</p>
+                <p class="straight-line">-</p>
+                <p class="skorSize"id="teamBgoal">0</p>
+            </div>
+            <!--Takım B-->
+            <div class="card">
+                <div class="team">
+                    <h2 id="TeamB">Takım B</h2>
+                 </div>
+                 <div class="newName">
+                    <button onclick="NewTeamB()">Yeni isim</button>
+                </div>
+                 <div class="team-photo imgB"></div>
+                 <div class="skor-edit">
+                     <button id="artanSayiButtonB">+</button>
+                     <button id="eksilSayiButtonB">-</button>
+                    <button onclick="showAlertB()">Düzenle</button>
+                    <button onclick="resetScoreB()">Sıfırla</button>
+                </div>
+            </div>        
+        
+        
+    </div>
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

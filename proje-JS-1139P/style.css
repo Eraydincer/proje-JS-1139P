@@ -1,0 +1,82 @@
+body{
+    background-image: url(images/Futbol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    
+     justify-content: space-around;
+    display: flex;
+    
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    
+}
+.team{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.skor{
+    display: flex;
+}
+.skorSize{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top:120px;
+    font-size: 50px;
+}
+.straight-line{
+    margin-top: 115px;
+    font-size: 50px;
+}
+.team-photo{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: gainsboro;
+margin-left:auto;
+margin-right: auto;
+}
+.imgB{
+    background-image: url(images/download.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.imgA{
+     background-image: url(images/fb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.skor{
+    color: white;
+}
+ .skor-edit{
+   
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+} 
+ button{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+} 
+button:hover{
+    background-color: gray;
+    color: white;
+   
+}
+.newName{
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
